@@ -1,8 +1,8 @@
 // Offline service worker. The build (vite.config.ts) swaps in the file list and a version stamp.
 // Plain JavaScript on purpose: it runs in the browser's background thread, outside the app bundle.
-const VERSION = "1794635006218"
+const VERSION = "1794665396117"
 const CACHE = 'lift-' + VERSION
-const PRECACHE = ["./","./index.html","./manifest.webmanifest","./icon.svg","./icon-192.png","./icon-512.png","./apple-touch-icon.png","./assets/index-CSTiHwMm.css","./assets/index-Danwxo8L.js"]
+const PRECACHE = ["./","./index.html","./manifest.webmanifest","./icon.svg","./icon-192.png","./icon-512.png","./apple-touch-icon.png","./assets/index-z1X0oa_M.css","./assets/index-Dk7xPh36.js"]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
